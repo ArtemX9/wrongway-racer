@@ -1,0 +1,39 @@
+.messagesListGradientWrap {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(180deg, #1F115B, #E5D7FF);
+    padding: 2px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.messagesList {
+    padding: 16px 16px 0px;
+    width: 428.1px;
+    height: 215px;
+    background: #180C3C;
+    border-radius: 16px;
+    overflow: scroll;
+}
+
+.message {
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height, or 139% */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.messageHasJoined {
+    color: #FF3EEC;
+}

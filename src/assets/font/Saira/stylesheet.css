@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'Saira';
+    font-style:  normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url("Saira-Thin.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Saira';
+    font-style:  italic;
+    font-weight: 100;
+    font-display: swap;
+    src: url("Saira-ThinItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Saira';
+    font-style:  normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url("Saira-ExtraLight.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Saira';
+    font-style:  italic;
+    font-weight: 200;
+    font-display: swap;
+    src: url("Saira-ExtraLightItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Saira';
+    font-style:  normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("Saira-Light.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Saira';
+    font-style:  italic;
+    font-weight: 300;
+    font-display: swap;
+    src: url("Saira-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Saira';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("Saira-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Saira';
+    font-style:  italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("Saira-Italic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Saira';
+    font-style:  normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("Saira-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Saira';
+    font-style:  italic;
+    font-weight: 500;
+    font-display: swap;
+    src: url("Saira-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Saira';
+    font-style:  normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("Saira-SemiBold.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Saira';
+    font-style:  italic;
+    font-weight: 600;
+    font-display: swap;
+    src: url("Saira-SemiBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Saira';
+    font-style:  normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("Saira-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Saira';
+    font-style:  italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url("Saira-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Saira';
+    font-style:  normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url("Saira-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Saira';
+    font-style:  italic;
+    font-weight: 800;
+    font-display: swap;
+    src: url("Saira-ExtraBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Saira';
+    font-style:  normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("Saira-Black.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Saira';
+    font-style:  italic;
+    font-weight: 900;
+    font-display: swap;
+    src: url("Saira-BlackItalic.ttf") format("truetype");
+}

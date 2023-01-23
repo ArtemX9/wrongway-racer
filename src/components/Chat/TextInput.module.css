@@ -1,0 +1,53 @@
+.textInputContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textInput {
+    width: 297px;
+    height: 40px;
+    background: #180C3C;
+    border-radius: 16px;
+    color: #FFFFFF;
+    padding: 16px;
+}
+
+.textInput::placeholder {
+     color: #FFFFFF;
+     opacity: 1;
+ }
+
+.sendButtonOuter {
+    width: 117px;
+    height: 40px;
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(180deg, #995AFF -7.69%, rgba(108, 58, 252, 0.91) 127.88%);
+    border-radius: 4px;
+}
+
+.sendButtonInner {
+    width: 100%;
+    height: 100%;
+    padding: 10px 37px;
+    background: radial-gradient(47.48% 60% at 50.3% 100%, rgba(255, 255, 255, 0.65) 0%, rgba(178, 89, 248, 0.77) 40.62%, rgba(137, 89, 248, 0.01) 100%);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.sendButtonText {
+
+    color: #FFFAFA;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25), 0px -2px 35px rgba(0, 0, 0, 0.45);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 20px;
+}

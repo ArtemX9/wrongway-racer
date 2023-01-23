@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import GameView from "./components/Game/GameView";
+import ChatContainer from "./components/Chat/ChatContainer";
+import StatisticsContainer from "./components/Statistics/StatisticsContainer";
+import PlayersContainer from "./components/Players/PlayersContainer";
+import styles from './App.module.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    return (
+        <div className={styles.App}>
+          <GameView/>
+          <div className={styles.bottom}>
+            <StatisticsContainer />
+            <ChatContainer />
+            <PlayersContainer />
+          </div>
+        </div>
   );
 }
 
